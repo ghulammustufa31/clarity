@@ -67,3 +67,25 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .bg-grid-slate-200\/50 {
+    background-image: linear-gradient(to right, rgb(226 232 240 / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(226 232 240 / 0.5) 1px, transparent 1px);
+  }
+
+  .bg-grid-slate-800\/50 {
+    background-image: linear-gradient(to right, rgb(30 41 59 / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(30 41 59 / 0.5) 1px, transparent 1px);
+  }
+
+  .bg-grid-slate-200\/30 {
+    background-image: linear-gradient(to right, rgb(226 232 240 / 0.3) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(226 232 240 / 0.3) 1px, transparent 1px);
+  }
+
+  .bg-grid-slate-800\/30 {
+    background-image: linear-gradient(to right, rgb(30 41 59 / 0.3) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(30 41 59 / 0.3) 1px, transparent 1px);
+  }
+}
